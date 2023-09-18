@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  line-height: 150%;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+}
