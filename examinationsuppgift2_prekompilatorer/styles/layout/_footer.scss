@@ -1,0 +1,9 @@
+// Footer
+footer {
+  background-color: darken($primary-color, 10%);
+  padding: 1rem;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,11 @@
+// Cards section
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  // Add more styles for individual cards
+}
