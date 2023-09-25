@@ -65,6 +65,19 @@ footer .wrapper {
   padding: 0 15px;
 }
 
+button {
+  border: 3px solid black;
+  height: 60px;
+  width: 200px;
+  background-color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5vh;
+}
+button:hover {
+  background-color: rgb(197, 128, 0);
+}
+
 .card {
   width: 25%;
   height: 150px;
