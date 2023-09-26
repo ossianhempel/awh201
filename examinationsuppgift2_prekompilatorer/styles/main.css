@@ -43,7 +43,6 @@ table {
 }
 
 .wrapper {
-  height: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -99,24 +98,6 @@ button:hover {
   align-items: center;
 }
 
-nav {
-  display: flex;
-  gap: 3vw;
-}
-
-.item {
-  list-style: none;
-  text-decoration: none;
-  color: rgb(34, 150, 244);
-}
-.item:hover {
-  color: rgb(34, 150, 244);
-  text-decoration: underline;
-}
-.item.active {
-  text-decoration: underline;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -127,14 +108,58 @@ header img {
   width: 100px;
   height: auto;
 }
+header nav {
+  display: flex;
+  gap: 3vw;
+}
+header .item {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(34, 150, 244);
+}
+header .item:hover {
+  color: rgb(34, 150, 244);
+  text-decoration: underline;
+}
+header .item.active {
+  text-decoration: underline;
+}
 
 footer {
-  background-color: #0b7cd8;
-  padding: 1rem;
+  background-color: rgb(29, 31, 33);
+  height: 190px;
+  padding: 3rem 8rem 5rem 8rem;
 }
 footer .wrapper {
   display: flex;
   justify-content: space-between;
+}
+footer h4 {
+  color: orange;
+  font-size: 23px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .item {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+footer .item:hover {
+  color: #b5b5b5;
+}
+footer .item.active {
+  text-decoration: underline;
+}
+footer .social .fa-brands {
+  color: rgb(206, 206, 206);
+  font-size: 23px;
+  margin-right: 10px;
 }
 
 .offers {

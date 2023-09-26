@@ -1,9 +1,43 @@
 // Footer
 footer {
-  background-color: darken($blue, 10%);
-  padding: 1rem;
+  background-color: $black;
+  height: 190px;
+  padding: 3rem 8rem 5rem 8rem;
   .wrapper {
     display: flex;
     justify-content: space-between;
   }
+  h4 {
+    color: $orange;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .item {
+    list-style: none;
+    text-decoration: none;
+    color: $grey-white;
+  
+    &:hover {
+      color: darken($grey-white, 10%);
+    }
+  
+    &.active {
+      text-decoration: underline;
+  
+    }
+  }
+  .social {
+    .fa-brands {
+      color: $grey-white;
+      font-size: 23px;
+      margin-right: 10px;
+    }
+  }
+  
 }
