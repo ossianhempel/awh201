@@ -1,8 +1,8 @@
 .card {
   width: 25%;
   height: min(150px);
-  background-color: rgb(194, 209, 226);
-  border: 3px solid rgb(0, 140, 255);
+  background-color: $light-blue;
+  border: 3px solid $blue;
   border-radius: 10px;
   padding: 10px;
   display: flex;

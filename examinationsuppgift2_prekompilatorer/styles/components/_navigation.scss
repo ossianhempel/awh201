@@ -1,0 +1,22 @@
+nav {
+  // Style for <nav> can go here
+  display: flex;
+  gap: 3vw;
+}
+
+.item {
+  list-style: none;
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    color: $blue;
+    text-decoration: underline;
+
+  }
+
+  &.active {
+    text-decoration: underline;
+
+  }
+}

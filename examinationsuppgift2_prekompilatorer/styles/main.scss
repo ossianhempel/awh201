@@ -9,8 +9,7 @@
 @import "base/typography";
 
 // Layout
-@import "layout/header";
-@import "layout/footer";
+
 @import "layout/hero";
 @import "layout/wrapper";
 
@@ -18,6 +17,8 @@
 @import "components/button";
 @import "components/card";
 @import "components/navigation";
+@import "components/header";
+@import "components/footer";
 
 // Sections
 @import "sections/offers";
