@@ -4,8 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background-image: url('path/to/your/image.jpg');
-  // background-size: cover;
-  height: 400px;
-  background-color: rgb(0, 81, 255);
+  height: 220px;
+  background: linear-gradient(to bottom, $light-blue, $blue);
+  .callout {
+    font-size: 25px;
+    color: $black;
+  }
 }

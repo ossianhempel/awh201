@@ -38,18 +38,22 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  background-color: rgb(0, 81, 255);
+  height: 220px;
+  background: linear-gradient(to bottom, rgb(194, 209, 226), rgb(34, 150, 244));
+}
+.hero .callout {
+  font-size: 25px;
+  color: rgb(29, 31, 33);
 }
 
-.wrapper {
+body {
+  height: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 button {
-  border: 3px solid black;
+  border: 2px solid black;
   height: 60px;
   width: 200px;
   background-color: orange;
