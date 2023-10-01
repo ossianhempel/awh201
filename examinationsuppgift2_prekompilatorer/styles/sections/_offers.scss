@@ -1,5 +1,4 @@
-// Offers, Sales, and References sections
 .offers {
-  margin-bottom: 2rem;
-  // Add more styles
+  @include common-section($purple, span 2);
+
 }

@@ -1,0 +1,36 @@
+@mixin common-section($bgColor, $gridColumn) {
+  grid-column: $gridColumn; // Take up only one column
+  position: relative; // Set the parent to relative
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; // Aligns children to the start
+  align-items: flex-start; // Aligns children to the start
+  text-align: left;
+  padding: 25px;
+  background-color: $bgColor; 
+  color: $black; 
+  height: 15vh;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    max-width: 90%;
+  }
+
+  .fa-solid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 25px; 
+    font-size: 40px;
+    color: white;
+  }
+}
+
+
+@mixin section-icon($size) {
+
+}
