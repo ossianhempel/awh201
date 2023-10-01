@@ -1,8 +1,19 @@
-
-// Final section
 .final {
-  text-align: center;
-  background-color: lightblue;
-  height: 20vh;
-  // Add more styles
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; // Aligns children to the start
+  align-items: flex-start; // Aligns children to the start
+  text-align: left;
+  padding: 10px;
+  margin: 6vh 0;
+  background-color: $light-blue; // Make sure $light-blue is defined
+  color: $black; 
+  height: 25vh;
+
+  .fa-heart {
+    margin-top: 2.5vh; 
+    color: white;
+    align-self: center; // Centrerar hjärtat horisontellt
+    font-size: 80px;
+  }
 }
