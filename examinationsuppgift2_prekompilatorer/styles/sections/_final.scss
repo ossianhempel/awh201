@@ -1,12 +1,12 @@
 .final {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; // Aligns children to the start
-  align-items: flex-start; // Aligns children to the start
+  justify-content: flex-start; 
+  align-items: flex-start; 
   text-align: left;
   padding: 10px;
   margin: 7vh 0;
-  background-color: $light-blue; // Make sure $light-blue is defined
+  background-color: $light-blue; 
   color: $black; 
   height: 25vh;
 

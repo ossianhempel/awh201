@@ -1,30 +1,26 @@
-// src/styles/main.scss
-
-// Abstracts
+// Abstrakt
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-// Base
+// Bas
 @import "base/reset";
 @import "base/typography";
 
 // Layout
-
 @import "layout/hero";
 @import "layout/wrapper";
 @import "layout/body";
+@import "layout/main";
 
-// Components
+// Komponenter
 @import "components/button";
 @import "components/card";
-@import "components/navigation";
 @import "components/header";
 @import "components/footer";
 
-// Sections
+// Sektioner
 @import "sections/offers";
 @import "sections/sales";
 @import "sections/references";
 @import "sections/final";
 @import "sections/cards";
-@import "sections/main"

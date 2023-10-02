@@ -1,10 +1,11 @@
+// Mixin för sektionerna i `main`
 @mixin common-section($bgColor, $gridColumn) {
-  grid-column: $gridColumn; // Take up only one column
-  position: relative; // Set the parent to relative
+  grid-column: $gridColumn; 
+  position: relative; // Relativt för att kunna positionera ikonerna
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; // Aligns children to the start
-  align-items: flex-start; // Aligns children to the start
+  justify-content: flex-start; // Placera flex-items i början på main axis
+  align-items: flex-start; // Placera flex-items i början på cross axis
   text-align: left;
   padding: 25px;
   background-color: $bgColor; 
@@ -28,9 +29,4 @@
     font-size: 40px;
     color: white;
   }
-}
-
-
-@mixin section-icon($size) {
-
 }

@@ -1,11 +1,10 @@
-// Hero section
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 220px;
-  background: linear-gradient(to bottom, $light-blue, $blue);
+  background: linear-gradient(to bottom, $light-blue, $blue); // Gradient bakgrundfärg
   .callout {
     font-size: 25px;
     color: $black;
