@@ -15,124 +15,123 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-3">
-    <a class="navbar-brand" href="index.html">Website</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav w-100 justify-content-evenly"> <!-- Added w-100 and justify-content-between -->
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-            Cars
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="electric-car.html">Electric Cars</a>
-            <a class="dropdown-item" href="gasoline-car.html">Gasoline Cars</a>
-            <a class="dropdown-item" href="hybrid-car.html">Hybrid Cars</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HEADER -->
-  <header class="bg-primary text-white py-3 text-center">
-    <h1>Gasoline Cars</h1>
-  </header>
-
-  <!-- MAIN CONTENT -->
-  <main class="container my-5">
-    <div class="row">
-      <!-- Card 1 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/ford_mustang.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ford Mustang</h5>
-            <p class="card-text">Ford Mustang is an iconic American car known for its performance.</p>
-          </div>
-        </div>
+  <div class="d-flex flex-column min-vh-100">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-3">
+      <a class="navbar-brand" href="index.html">Website</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-evenly"> <!-- Added w-100 and justify-content-between -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Cars
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="electric-car.html">Electric Cars</a>
+              <a class="dropdown-item" href="gasoline-car.html">Gasoline Cars</a>
+              <a class="dropdown-item" href="hybrid-car.html">Hybrid Cars</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
-  
-      <!-- Card 2 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/chevy_camaro.avif" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Chevrolet Camaro</h5>
-            <p class="card-text">Chevrolet Camaro is a modern take on the classic American muscle car.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Card 3 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/bmw_m3.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">BMW M3</h5>
-            <p class="card-text">BMW M3 is a high-performance version of the 3 Series, known for its sporty attributes.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Card 4 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/honda_civic_r.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Honda Civic Type R</h5>
-            <p class="card-text">The Civic Type R is the high-performance variant of Honda's popular Civic model.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Card 5 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/porsche_911.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Porsche 911</h5>
-            <p class="card-text">Porsche 911 is a luxury sports car known for its speed and precision handling.</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Card 6 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/mercedes_amg_gt.avif" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mercedes-AMG GT</h5>
-            <p class="card-text">The Mercedes-AMG GT is a sports car designed for high performance and speed.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="bg-light py-4">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
+    </nav>
+    <!-- HEADER -->
+    <header class="bg-primary text-white py-3 text-center">
+      <h1>Gasoline Cars</h1>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="container my-5 flex-grow-1">
+      <div class="row">
+        <!-- Card 1 -->
         <div class="col-md-4">
-          <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+          <div class="card">
+            <img src="images/ford_mustang.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ford Mustang</h5>
+              <p class="card-text">Ford Mustang is an iconic American car known for its performance.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-center">
-          <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
+    
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/chevy_camaro.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chevrolet Camaro</h5>
+              <p class="card-text">Chevrolet Camaro is a modern take on the classic American muscle car.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-end">
-          <a href="#top" class="btn btn-link">Back to top</a>
+    
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/bmw_m3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BMW M3</h5>
+              <p class="card-text">BMW M3 is a high-performance version of the 3 Series, known for its sporty attributes.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/honda_civic_r.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Honda Civic Type R</h5>
+              <p class="card-text">The Civic Type R is the high-performance variant of Honda's popular Civic model.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 5 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/porsche_911.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Porsche 911</h5>
+              <p class="card-text">Porsche 911 is a luxury sports car known for its speed and precision handling.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 6 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/mercedes_amg_gt.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mercedes-AMG GT</h5>
+              <p class="card-text">The Mercedes-AMG GT is a sports car designed for high performance and speed.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-light py-4">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-4">
+            <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="col-md-4 text-end">
+            <a href="#top" class="btn btn-link">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>

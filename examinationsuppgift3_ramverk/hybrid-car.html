@@ -15,124 +15,118 @@
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-3">
-    <a class="navbar-brand" href="index.html">Website</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav w-100 justify-content-evenly"> <!-- Added w-100 and justify-content-between -->
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-            Cars
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="electric-car.html">Electric Cars</a>
-            <a class="dropdown-item" href="gasoline-car.html">Gasoline Cars</a>
-            <a class="dropdown-item" href="hybrid-car.html">Hybrid Cars</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HEADER -->
-  <header class="bg-primary text-white py-3 text-center">
-    <h1>Hybrid Cars</h1>
-  </header>
-
-  <!-- MAIN CONTENT -->
-  <main class="container my-5">
-    <div class="row">
-      <!-- Card 1 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/toyota_prius.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Toyota Prius</h5>
-            <p class="card-text">Toyota Prius is a full hybrid electric automobile.</p>
-          </div>
-        </div>
+  <div class="d-flex flex-column min-vh-100">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-3">
+      <a class="navbar-brand" href="index.html">Website</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-evenly"> <!-- Added w-100 and justify-content-between -->
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Cars
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="electric-car.html">Electric Cars</a>
+              <a class="dropdown-item" href="gasoline-car.html">Gasoline Cars</a>
+              <a class="dropdown-item" href="hybrid-car.html">Hybrid Cars</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
-
-      <!-- Card 2 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/honda_accord.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Honda Accord Hybrid</h5>
-            <p class="card-text">Combines an efficient gasoline engine with an electric motor.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/ford_fusion.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ford Fusion Hybrid</h5>
-            <p class="card-text">Offers both fuel efficiency and a comfortable ride.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/huyundai_ioniq.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Hyundai Ioniq</h5>
-            <p class="card-text">Hyundai Ioniq offers hybrid, plug-in hybrid and electric variants.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/bmw_i8.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">BMW i8</h5>
-            <p class="card-text">The i8 is BMW's sporty hybrid with futuristic design.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/kio_niro.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kia Niro</h5>
-            <p class="card-text">The Kia Niro is a hybrid subcompact SUV offering practicality and efficiency.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="bg-light py-4">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
+    </nav>
+    <!-- HEADER -->
+    <header class="bg-primary text-white py-3 text-center">
+      <h1>Hybrid Cars</h1>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="container my-5 flex-grow-1">
+      <div class="row">
+        <!-- Card 1 -->
         <div class="col-md-4">
-          <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+          <div class="card">
+            <img src="images/toyota_prius.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Toyota Prius</h5>
+              <p class="card-text">Toyota Prius is a full hybrid electric automobile.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-center">
-          <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/honda_accord.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Honda Accord Hybrid</h5>
+              <p class="card-text">Combines an efficient gasoline engine with an electric motor.</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 text-end">
-          <a href="#top" class="btn btn-link">Back to top</a>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/ford_fusion.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ford Fusion Hybrid</h5>
+              <p class="card-text">Offers both fuel efficiency and a comfortable ride.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/huyundai_ioniq.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hyundai Ioniq</h5>
+              <p class="card-text">Hyundai Ioniq offers hybrid, plug-in hybrid and electric variants.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/bmw_i8.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BMW i8</h5>
+              <p class="card-text">The i8 is BMW's sporty hybrid with futuristic design.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/kio_niro.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kia Niro</h5>
+              <p class="card-text">The Kia Niro is a hybrid subcompact SUV offering practicality and efficiency.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-light py-4">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-4">
+            <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="col-md-4 text-end">
+            <a href="#top" class="btn btn-link">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
