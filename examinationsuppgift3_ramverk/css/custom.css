@@ -6,3 +6,15 @@
 .flex-grow-1 {
   flex-grow: 1;
 }
+
+/* Make sure the image covers the card image area */
+.card-img-wrapper {
+  overflow: hidden;
+  height: 200px; /* Fixed height */
+}
+
+.card-img-top {
+  height: 100%;
+  object-fit: contain;
+}
+
