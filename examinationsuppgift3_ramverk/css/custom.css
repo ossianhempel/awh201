@@ -1,16 +1,15 @@
-/* custom.css */
-.min-vh-100 {
+.wrapper {
   min-height: 100vh;
 }
 
-.flex-grow-1 {
+.main {
   flex-grow: 1;
 }
 
-/* Make sure the image covers the card image area */
+/* Make image covers the card image area */
 .card-img-wrapper {
   overflow: hidden;
-  height: 200px; /* Fixed height */
+  height: 200px; /* Fixed height for similar look */
 }
 
 .card-img-top {
