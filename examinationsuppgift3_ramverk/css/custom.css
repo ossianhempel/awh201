@@ -6,7 +6,7 @@
   flex-grow: 1;
 }
 
-/* Make image covers the card image area */
+/* Make image cover the card image area */
 .card-img-wrapper {
   overflow: hidden;
   height: 200px; /* Fixed height for similar look */
